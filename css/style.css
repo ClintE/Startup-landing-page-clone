@@ -97,8 +97,8 @@ li {
     color: #333333;
 }
 .introduction {
-    background-image: url(images/first-background.jpg);
-    background-position: center;
+    background-image: url(../images/first-background.jpg);
+    background-position: center  bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
@@ -106,17 +106,20 @@ li {
 .links li {
     display: inline-block;
 }
-.introduction > .contents {
+ .contents {
     color: white;
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
     width: 970px;
     font-size: 3.125rem;
-    overflow: auto;
+    overflow: initial;
 }
-.introduction  > h1 {
-  margin-top:280px;
-  font-size: 3.125rem;
+.introduction > .contents  > h1 {
+  margin-top: 350px;
+  font-size: 1rem;
+}
+.introduction > .contents > h3 {
+  font-size: 1rem;
 }
 button {
   width: 9.688rem;
