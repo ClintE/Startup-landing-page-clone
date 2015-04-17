@@ -143,3 +143,24 @@ button:hover {
   border-color: #cf3d0e;
   cursor: pointer;
   }
+
+.cases {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ .devices {
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3em;
+ 
+  width: 127px;
+  display: inline-block;
+  /*debug styling*/
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+
+}
