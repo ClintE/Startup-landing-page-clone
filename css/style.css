@@ -75,8 +75,7 @@ ol, ul {
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
-    -webkit-font-smoothing: anti-aliased;
-    margin-top: 1.7rem;
+  margin-top: 1.7rem;
 } 
 .top-navigation > .content > .logo {
 	height: 4.375rem;
@@ -102,11 +101,12 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
 }
 .links li {
     display: inline-block;
 }
- .contents {
+ .content {
     color: white;
     text-align: center;
     margin: auto auto;
@@ -114,14 +114,20 @@ li {
     font-size: 3.125rem;
     overflow: initial;
 }
-.introduction > .contents  > h1 {
+.introduction > .content  > h1 {
   margin-top: 350px;
-  font-size: 1rem;
+  font-family: helvetica;
+  font-size: 3.125rem;
+  font-weight: 200;
 }
-.introduction > .contents > h3 {
-  font-size: 1rem;
+.introduction > .content > h3 {
+  margin-top: 20px;
+  font-family: helvetica;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 button {
+  margin-top: 20px;
   width: 9.688rem;
   background-color: #f15a29;
   border-color: #f15a29;
@@ -132,3 +138,8 @@ button {
   color: white;
   font-size: 1.125rem;
 }
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+  }
