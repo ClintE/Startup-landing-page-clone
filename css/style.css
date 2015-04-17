@@ -141,8 +141,15 @@ button:hover {
   margin-right: auto;
   margin-left: auto;
 }
+.content .cases {
+  text-align: center;
+}
+ .cases .devices li {
+  float: left;
+  color: black;
+  width: 33%;
 
- .devices {
+  /*may be no good *
   font-family: verdana;
   font-weight: lighter;
   font-size: 2rem;
@@ -151,9 +158,10 @@ button:hover {
  
   width: 127px;
   display: inline-block;
-  /*debug styling*/
+  
+  debug styling
   border: 1px solid black;
   box-sizing: border-box;
   height: 4em;
-
+*/
 }
