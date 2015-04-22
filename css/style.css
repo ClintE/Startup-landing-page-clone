@@ -140,15 +140,22 @@ button:hover {
 .cases {
   margin-right: auto;
   margin-left: auto;
+  
 }
-.content .cases {
+.cases .content{
   text-align: center;
+  margin-top: 7.5rem;
 }
  .cases .devices li {
   float: left;
   color: black;
   width: 33%;
-
+}
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
   /*may be no good *
   font-family: verdana;
   font-weight: lighter;
